@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: lime;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.titulo{
+    padding-bottom: 20px;
+    display: flex;
+    border-color: #808080 !important;
+    border-bottom: solid;
+}
+
+.titulo>h1{
+    margin: auto;
+}
+
+.conteudo{
+    padding-left: 10%;
+}
+
+.conteudo>ul{
+    font-size: 20px;
+    list-style-image: url("/assets/icons/verify-black-square-interface-button-symbol_icon-icons.com_72893.svg");
+}
+
+.conteudo>ul>li{
+    padding-bottom: 10px;
+}
+
+.footer{
+    width: 60%;
+    margin: auto;
+}
